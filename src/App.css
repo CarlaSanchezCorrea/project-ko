@@ -1,0 +1,144 @@
+.index-sections>div>img {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  box-sizing: border-box;
+  /* object-position: center center; */
+  position: absolute;
+  z-index: -1;
+}
+.hero__text-content img{
+  max-width: 100%;
+}
+.hero__text-content {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1rem 0.6rem 0;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+  z-index: 1;
+}
+
+.timer {
+  padding: 10px;
+  margin: 10px 0;
+  max-width: 360px;
+  width: 100%;
+  margin: 0 212.4px;
+
+  position: absolute;
+  top: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.timer__title {
+  text-align: center;
+  color: #fff;
+  font-family: Oswald,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-size: 1.1875em;
+  margin-bottom: 9.5px;
+}
+
+.timer-display{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 5px;
+  color: #ffffff;
+}
+.timer-block {
+  display: flex;
+  flex-direction: column;
+}
+.timer-block span:nth-child(1) {
+  margin-bottom: 5px;
+}
+.timer-block__num {
+  font-weight: 600;
+  font-family: 'Trade Gothic LT Std',Oswald,sans-serif;
+  font-size: 52px;
+  line-height: 1;
+}
+
+
+.timer-block, .timer-block__uni {
+  font-family: 'Trade Gothic LT Std',Oswald,sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: capitalize;
+
+}
+
+/* .hero .slideshow__overlay:before {
+  height: 100vh;
+}
+
+.slideshow__overlay:before {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) calc(100% - 150px), rgba(0, 0, 0, 0.39) calc(100% - 60px), rgba(0, 0, 0, 0.51));
+} */
+
+/* .hero__text-content {
+  position: absolute;
+  opacity: 0;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5rem 0.6rem 0;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+  z-index: 1;
+} */
+/* .hero--adapt .hero__enroll-date__wrapper, .hero__slide .hero__enroll-date__wrapper {
+  position: absolute;
+  margin: 0 auto 40px;
+  padding-top: 14vh;
+} */
+
+
+/* .hero__style-list{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26) calc(100% - 150px), rgba(0, 0, 0, 0.39) calc(100% - 60px), rgba(0, 0, 0, 0.51));
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: auto;
+  width: auto;
+} */
+
+
+/* //cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-en_800x.png?v=1616202881 */
+/* .hero__enroll-date__wrapper{
+  background-image: url("//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-en_800x.png?v=1616202881");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+} */
+
+#shopify-section-slideshow{
+  background-image: url("https://cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_540x.jpg?v=1616203339%20540w,%20//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_720x.jpg?v=1616203339%20720w,%20//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_900x.jpg?v=1616203339%20900w,%20//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_1080x.jpg?v=1616203339%201080w,%20//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_1296x.jpg?v=1616203339%201296w,%20//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_1512x.jpg?v=1616203339%201512w,%20//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_1728x.jpg?v=1616203339%201728w,%20//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_1944x.jpg?v=1616203339%201944w,%20//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_2048x.jpg?v=1616203339%202048w,%20//cdn.shopify.com/s/files/1/0432/9839/0184/files/itson-bg_4472x.jpg?v=1616203339%204472w");
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /* background-attachment: fixed; */
+}
+
+
+

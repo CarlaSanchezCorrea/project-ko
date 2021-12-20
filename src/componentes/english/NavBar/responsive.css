@@ -1,0 +1,28 @@
+@media screen and (min-width: 591px){
+    .wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    .large--one-quarter {
+        width: 25%;
+    }
+}
+@media only screen and (min-width: 769px){
+    .large--text-right {
+        text-align: right!important;
+    }
+}
+@media screen and (min-width: 1115px){
+    .wrapper {
+        margin: 0 38px;
+    }
+}
+
+@media screen and (max-width: 1115px){
+    #grid__item{
+        /* padding-left: 40px; */
+        width: 0%;
+    }
+}
